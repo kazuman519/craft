@@ -19,3 +19,10 @@
 [10:16:17] [Server thread/WARN]: Time ran backwards! Did the system time change?
 [13:19:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 10112485ms behind, skipping 202249 tick(s)
 [13:28:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 283249ms behind, skipping 5664 tick(s)
+[13:29:35] [Server thread/INFO]: Stopping the server
+[13:29:36] [Server thread/INFO]: Stopping server
+[13:29:36] [Server thread/INFO]: Saving players
+[13:29:36] [Server thread/INFO]: Saving worlds
+[13:29:36] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[13:29:36] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[13:29:36] [Server thread/INFO]: Saving chunks for level 'world'/The End

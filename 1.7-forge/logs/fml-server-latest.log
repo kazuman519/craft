@@ -1314,3 +1314,50 @@ java.io.IOException: Connection reset by peer
 [13:22:35] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
 [13:23:20] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
 [13:28:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[13:29:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[13:29:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[13:29:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[13:29:36] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[13:29:36] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[13:29:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[13:29:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - CutAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - DigAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - MineAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.001s
+[13:29:36] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[13:29:36] [Server thread/INFO] [FML/]: Unloading dimension 0
+[13:29:36] [Server thread/INFO] [FML/]: Unloading dimension -1
+[13:29:36] [Server thread/INFO] [FML/]: Unloading dimension 1
+[13:29:36] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[13:29:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[13:29:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[13:29:36] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[13:29:36] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.001s
+[13:29:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[13:29:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CutAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - DigAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - MineAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.004s
+[13:29:36] [Server thread/INFO] [FML/]: Applying holder lookups
+[13:29:36] [Server thread/INFO] [FML/]: Holder lookups applied
+[13:29:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[13:29:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[13:29:36] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[13:29:36] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[13:29:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[13:29:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CutAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - DigAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - MineAllSMP took 0.000s
+[13:29:36] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.001s
