@@ -1,0 +1,116 @@
+[19:46:02] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[19:46:02] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[19:46:02] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_71, running on Mac OS X:x86_64:10.11.3, installed at /Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre
+[19:46:02] [main/DEBUG] [FML/]: Java classpath at launch is forge-universal.jar
+[19:46:02] [main/DEBUG] [FML/]: Java library path at launch is /Users/kazuma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[19:46:02] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[19:46:02] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[19:46:02] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[19:46:02] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[19:46:02] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[19:46:02] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[19:46:02] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[19:46:02] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[19:46:02] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/kazuma/Downloads/minecraft_server/1.7-forge/.
+[19:46:02] [main/DEBUG] [FML/]: Discovering coremods
+[19:46:02] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:46:02] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[19:46:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:46:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:46:02] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:46:02] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[19:46:02] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[19:46:02] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[19:46:02] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[19:46:02] [main/DEBUG] [FML/]: Injection complete
+[19:46:02] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[19:46:02] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[19:46:03] [main/DEBUG] [FML/]: Read 527 binary patches
+[19:46:03] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[19:46:03] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[19:46:03] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:46:03] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[19:46:03] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[19:46:03] [main/DEBUG] [FML/]: Injection complete
+[19:46:03] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[19:46:03] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[19:46:03] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[19:46:03] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[19:46:03] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[19:46:03] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[19:46:03] [main/DEBUG] [FML/]: Validating minecraft
+[19:46:04] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[19:46:04] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[19:46:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[19:46:04] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[19:46:08] [main/WARN] [FML/]: =============================================================
+[19:46:08] [main/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[19:46:08] [main/WARN] [FML/]: Offendor: net/minecraft/server/gui/MinecraftServerGui$1.windowClosing(Ljava/awt/event/WindowEvent;)V
+[19:46:08] [main/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[19:46:08] [main/WARN] [FML/]: =============================================================
+[19:46:08] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[19:46:08] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[19:46:08] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[19:46:08] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[19:46:08] [Server thread/DEBUG] [FML/]: File /Users/kazuma/Downloads/minecraft_server/1.7-forge/config/injectedDependencies.json not found. No dependencies injected
+[19:46:08] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[19:46:08] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[19:46:08] [Server thread/DEBUG] [FML/]: Minecraft is a file at /Users/kazuma/Downloads/minecraft_server/1.7-forge/forge-universal.jar, loading
+[19:46:08] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[19:46:08] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[19:46:08] [Server thread/INFO] [FML/]: Searching /Users/kazuma/Downloads/minecraft_server/1.7-forge/mods for mods
+[19:46:08] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip
+[19:46:08] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip
+[19:46:08] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file %5B1.7.10%5D%5Bforge1291%5Dmod_DigAllSMP_v2.3.0.zip
+[19:46:08] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file %5B1.7.10%5D%5Bforge1291%5Dmod_MineAllSMP_v2.6.1.zip
+[19:46:08] [Server thread/DEBUG] [FML/]: Examining file forge-universal.jar for potential mods
+[19:46:08] [Server thread/DEBUG] [FML/]: The mod container forge-universal.jar appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Examining file %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip for potential mods
+[19:46:09] [Server thread/DEBUG] [FML/]: The mod container %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.mod_CutAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.cutall.mod_CutAllSMP) - loading
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.Packet_mod_CutAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/INFO] [FML/]: Attempting to reparse the mod container %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip
+[19:46:09] [Server thread/DEBUG] [FML/]: Examining file %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip for potential mods
+[19:46:09] [Server thread/DEBUG] [FML/]: The mod container %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.mod_CutAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.cutall.mod_CutAllSMP) - loading
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.Packet_mod_CutAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Examining file %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip for potential mods
+[19:46:09] [Server thread/DEBUG] [FML/]: The mod container %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.mod_CutAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.cutall.mod_CutAllSMP) - loading
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.Packet_mod_CutAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/INFO] [FML/]: Attempting to reparse the mod container %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip
+[19:46:09] [Server thread/DEBUG] [FML/]: Examining file %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip for potential mods
+[19:46:09] [Server thread/DEBUG] [FML/]: The mod container %5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.mod_CutAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.cutall.mod_CutAllSMP) - loading
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.Packet_mod_CutAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Examining file %5B1.7.10%5D%5Bforge1291%5Dmod_DigAllSMP_v2.3.0.zip for potential mods
+[19:46:09] [Server thread/DEBUG] [FML/]: The mod container %5B1.7.10%5D%5Bforge1291%5Dmod_DigAllSMP_v2.3.0.zip appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.digall.mod_DigAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.digall.mod_DigAllSMP) - loading
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.digall.Packet_mod_DigAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/INFO] [FML/]: Attempting to reparse the mod container %5B1.7.10%5D%5Bforge1291%5Dmod_DigAllSMP_v2.3.0.zip
+[19:46:09] [Server thread/DEBUG] [FML/]: Examining file %5B1.7.10%5D%5Bforge1291%5Dmod_DigAllSMP_v2.3.0.zip for potential mods
+[19:46:09] [Server thread/DEBUG] [FML/]: The mod container %5B1.7.10%5D%5Bforge1291%5Dmod_DigAllSMP_v2.3.0.zip appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.digall.mod_DigAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.digall.mod_DigAllSMP) - loading
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.digall.Packet_mod_DigAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Examining file %5B1.7.10%5D%5Bforge1291%5Dmod_MineAllSMP_v2.6.1.zip for potential mods
+[19:46:09] [Server thread/DEBUG] [FML/]: The mod container %5B1.7.10%5D%5Bforge1291%5Dmod_MineAllSMP_v2.6.1.zip appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.mineall.mod_MineAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.mineall.mod_MineAllSMP) - loading
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.mineall.Packet_mod_MineAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/INFO] [FML/]: Attempting to reparse the mod container %5B1.7.10%5D%5Bforge1291%5Dmod_MineAllSMP_v2.6.1.zip
+[19:46:09] [Server thread/DEBUG] [FML/]: Examining file %5B1.7.10%5D%5Bforge1291%5Dmod_MineAllSMP_v2.6.1.zip for potential mods
+[19:46:09] [Server thread/DEBUG] [FML/]: The mod container %5B1.7.10%5D%5Bforge1291%5Dmod_MineAllSMP_v2.6.1.zip appears to be missing an mcmod.info file
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.mineall.mod_MineAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.mineall.mod_MineAllSMP) - loading
+[19:46:09] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.mineall.Packet_mod_MineAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[19:46:09] [Server thread/ERROR] [FML/]: Found a duplicate mod net.minecraft.scalar.cutall.mod_CutAllSMP at [/Users/kazuma/Downloads/minecraft_server/1.7-forge/mods/%5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip, /Users/kazuma/Downloads/minecraft_server/1.7-forge/mods/%5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip]
+[19:46:09] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[19:46:09] [Server thread/INFO] [FML/]: Applying holder lookups
+[19:46:09] [Server thread/INFO] [FML/]: Holder lookups applied
+[19:46:09] [Server thread/INFO] [FML/]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.

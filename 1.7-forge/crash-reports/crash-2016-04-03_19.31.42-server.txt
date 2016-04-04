@@ -1,0 +1,46 @@
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 16/04/03 19:31
+Description: Exception in server tick loop
+
+Duplicate Mods:
+	net.minecraft.scalar.cutall.mod_CutAllSMP : /Users/kazuma/Downloads/マイクラサーバー/1.7-forge/mods/%5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip
+	net.minecraft.scalar.cutall.mod_CutAllSMP : /Users/kazuma/Downloads/マイクラサーバー/1.7-forge/mods/%5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip
+
+cpw.mods.fml.common.DuplicateModsFoundException
+	at cpw.mods.fml.common.Loader.identifyDuplicates(Loader.java:403)
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:365)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Mac OS X (x86_64) version 10.11.3
+	Java Version: 1.8.0_73, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 534741768 bytes (509 MB) / 590872576 bytes (563 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 7 mods loaded, 0 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+		mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+		FML{7.10.99.99} [Forge Mod Loader] (forge-universal.jar) 
+		Forge{10.13.4.1614} [Minecraft Forge] (forge-universal.jar) 
+		net.minecraft.scalar.cutall.mod_CutAllSMP{2.5.0} [CutAllSMP] (%5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0 2.zip) 
+		net.minecraft.scalar.cutall.mod_CutAllSMP{2.5.0} [CutAllSMP] (%5B1.7.10%5D%5Bforge1291%5Dmod_CutAllSMP_v2.5.0.zip) 
+		net.minecraft.scalar.digall.mod_DigAllSMP{2.3.0} [DigAllSMP] (%5B1.7.10%5D%5Bforge1291%5Dmod_DigAllSMP_v2.3.0.zip) 
+		net.minecraft.scalar.mineall.mod_MineAllSMP{2.6.1} [MineAllSMP] (%5B1.7.10%5D%5Bforge1291%5Dmod_MineAllSMP_v2.6.1.zip) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
